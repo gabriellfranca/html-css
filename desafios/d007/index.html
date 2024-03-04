@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 7</title>
+</head>
+<body>
+    <h1>Desafio com imagem flexível</h1>
+    <p>Aqui em baixo vamos testar algumas maneiras de flexibilizar uma imagem de acordo com a maneira e tipo de aparelho que ela está sendo visualizada.</p>
+    <picture>
+        <source media="(max-width: 550px)" srcset="imagens/desafio2-p.jpg" type="image/jpeg">
+        <source media="(max-width: 850px)" srcset="imagens/desafio2-m.jpg" type="image/jpeg">
+        <img src="imagens/desafio2.jpg" alt="grand canyon">
+    </picture>
+</body>
+</html>
